@@ -53,6 +53,24 @@ span {
   left: 130px;
 }
 
+.cardnumber {
+  position: absolute;
+  bottom: 26em;
+  left: 8.2em;
+}
+
+.cardname {
+  position: absolute;
+  bottom: 23em;
+  left: 8.2em;
+}
+
+.cardexp {
+  position: absolute;
+  bottom: 23em;
+  left: 24.2em;
+}
+
 .main-card img {
   height: 208px;
 }
@@ -66,6 +84,12 @@ span {
 
 .main-back img {
   height: 208px;
+}
+
+.cvcnumber {
+  position: absolute;
+  top: 24em;
+  left: 32em;
 }
 
 /* back-card-END */
@@ -98,7 +122,7 @@ span {
 
 .submit-btn {
   width: 100%;
-  background: linear-gradient(45deg, blueviolet, deeppink);
+  background: var(--Very-dark-violet);
   margin-top: 32px;
   padding: 10px;
   font-size: 20px;
